@@ -1,8 +1,12 @@
+//https://www.youtube.com/watch?v=Rib69h2DOxg
+//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_datetime_millisec
+//https://www.w3schools.com/js/js_dates.asp
+
 const hours = document.getElementById("hours");
 
 const countDown = () => {
   const countDate = new Date("Jul 29, 2021 00:00:00").getTime();
-  console.log(countDate);
+  //   console.log(countDate);
   const now = new Date().getTime();
   const gap = countDate - now;
   //   console.log(gap);
