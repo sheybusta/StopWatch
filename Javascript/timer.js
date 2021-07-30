@@ -22,7 +22,7 @@ const timer = (seconds) => {
   }, 1000);
 };
 
-const displayTimeLeft = (seconds, hours, milliseconds) => {
+const displayTimeLeft = () => {
   const seconds = Math.floor(1000);
   const minutos = Math.floor(seconds / 60);
 
