@@ -1,6 +1,6 @@
 let startstop = 0;
 
-const startStop = () => {
+const startToggle = () => {
   startstop = startstop + 1;
   if (startstop === 1) {
     startTimer();
@@ -70,5 +70,3 @@ startWatch.addEventListener("click", startTimer);
 
 const resetWatch = document.getElementById("btn-reset");
 resetWatch.addEventListener("click", reset);
-
-//
